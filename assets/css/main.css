@@ -332,7 +332,7 @@
     /* padding: 10px; */
     height: auto;
     /* object-fit: cover; */
-    
+
 }
 
 .container-3__item-work {
@@ -354,7 +354,7 @@
     color: black;
 }
 
-.container-3__item-btn:hover ~ .container__refer-btn-lable-icon{
+.container-3__item-btn:hover~.container__refer-btn-lable-icon {
     background-color: #ccc;
     color: black;
     fill: #000000;
@@ -365,13 +365,14 @@
     margin-right: 10px;
     margin-bottom: 3px;
 }
-.container-3__item-title{
+
+.container-3__item-title {
     font-size: 25px;
 }
 
-.container-3__item-paragraph{
+.container-3__item-paragraph {
     margin-top: 30px;
-    
+
 }
 
 /* cotainer-4 */
@@ -396,10 +397,10 @@
     font-family: "Raleway", sans-serif;
 }
 
-.card__info-position{
+.card__info-position {
     font-size: 1.7rem;
     color: #ccc;
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
 .card__info-about {
@@ -453,7 +454,7 @@
     padding: 4rem;
     color: white;
     font-size: 2rem;
-    
+
 }
 
 .container-5__item {
@@ -480,13 +481,11 @@
 .container-7 {
     padding: 70px 0;
     background-color: #f1f1f1;
-    font-family: "Raleway", sans-serif;   
-    font-size: 1.7rem; 
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
 }
 
-.container-7__item {
-
-}
+.container-7__item {}
 
 .container-7__item-skill {
     margin-top: 20px;
@@ -505,7 +504,7 @@
     background-color: #bababa;
 }
 
-.item-skill-percent-proccess{
+.item-skill-percent-proccess {
     margin-top: 10px;
     text-align: center;
     padding: 2px;
@@ -532,7 +531,7 @@
 /* container-8 */
 
 .container-8 {
-    font-family: "Raleway", sans-serif;  
+    font-family: "Raleway", sans-serif;
     background-color: #616161;
     padding: 100px 0;
 }
@@ -575,7 +574,8 @@
 
 .container-8__item:hover {
     z-index: -1;
-    transform: translateY(-10px); /* Di chuyển block lên trên khi hover */
+    transform: translateY(-10px);
+    /* Di chuyển block lên trên khi hover */
     cursor: pointer;
 }
 
@@ -626,13 +626,14 @@
 .item-input {
     margin-top: 20px;
     height: 50px;
-    font-size: 2rem;padding-left: 10px;
+    font-size: 2rem;
+    padding-left: 10px;
     width: 100%;
 }
 
 .item__input-btn {
     text-align: center;
-    width: 300px    ;
+    width: 300px;
     margin-top: 20px;
     color: white;
     background-color: black;
@@ -701,7 +702,11 @@
         /* padding: 10px; */
         height: 350px;
         /* object-fit: cover; */
-        
+
+    }
+
+    .container-9__item-lable {
+        font-size: 1.5rem;
     }
 }
 
